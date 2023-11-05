@@ -13,7 +13,7 @@ There are two parts to this assignment.
 - cagey csp.py. Starter code for the CSP models. You will modify three procedures in this file: binary ne grid, nary ad grid, and cagey csp model.
 - tests.py. Sample test cases. Run the tests with “python3 tests.py”.
 - csp sample run.py. Example CSP problems to demonstrate usage of the API.
-### Team members
+### Team Members
 Irving Wu
 
 ## Assignment 2
@@ -40,7 +40,7 @@ The hero is lucky to have so much information about this dungeon! But they are n
 - The hero can pickup a key in their current room and they aren’t already holding a key.
 - The hero can drop a key they are holding, and it will then be in the current room.
 Important: please read and reread the above until you understand it completely. Failing to understand the domain will significantly hamper your ability to succeed on this assignment!
-### Team members
+### Team Members
 Irving Wu, Baorong Wei
 
 ## Assignment 3
@@ -61,7 +61,7 @@ Pacman spends his life running from ghosts, but things were not always so. Legen
 ### File Modified by Team Members
 - bustersAgents.py: Agents for playing the Ghostbusters variant of Pacman.
 - solutions.py: Code to implement the functionalities of inference.py which track ghosts over time using their sounds.
-### Team members
+### Team Members
 Irving Wu, Baorong Wei
 
 ## Assignment 4
@@ -73,5 +73,5 @@ This assignment will have you building simple neural networks to perform a varie
 - autograder.py: Project autograder.
 ### File Modified by Team Members
 - models.py: Perceptron and neural network models for a variety of applications.
-### Team members
+### Team Members
 Irving Wu, Baorong Wei
