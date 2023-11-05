@@ -1,0 +1,16 @@
+Group Members:
+
+Irving Wu
+20130998
+18zw22
+Solve Problem 2 & Debug and modify Problem 1 and 3
+
+Baorong Wei
+20171149
+18bw16
+Solve Problem 5 & Debug and modify Problem 4
+
+Alisa Liu
+20155349
+18zl107
+Solve Problem 1 & Dive deep into the coding of Problem 3 and 4
