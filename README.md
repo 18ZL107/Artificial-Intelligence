@@ -22,6 +22,7 @@ A treasure hunter just walked into a dungeon with a priceless treasure waiting t
 - The hero can hold a single key.
 - There are two-use keys and one-use keys that are limited in use, and multi-use keys can be used infinitely many times.
 - One of the rooms is the goal with (containing treasure!).
+
 The hero is lucky to have so much information about this dungeon! But they are not that lucky. The corridors can collapse, the keys are scattered, and it’s not so easy to figure out a path through the dungeon. Nonetheless, there’s treasure at the end!! The hero can perform any of the following actions:
 - The hero can move to an adjacent room (connected to a common corridor as the current room) as long as the corridor is not locked and is not collapsed. The corridors with a red lock are risky and will collapse once passed (i.e., can only be passed once).
 - When holding the correctly coloured key, the hero can unlock a corridor it is adjacent to (i.e., to open a blue lock, the hero must be holding the blue key).
