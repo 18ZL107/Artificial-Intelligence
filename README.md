@@ -63,3 +63,15 @@ Pacman spends his life running from ghosts, but things were not always so. Legen
 - solutions.py: Code to implement the functionalities of inference.py which track ghosts over time using their sounds.
 ### Team members
 Irving Wu, Baorong Wei
+
+## Assignment 4
+### Introduction
+This assignment will have you building simple neural networks to perform a variety of machine learning tasks.
+### File Provided by Prof. Christian Muise
+- nn.py: Neural network mini-library.
+- backend.py: Backend code for various machine learning tasks.
+- autograder.py: Project autograder.
+### File Modified by Team Members
+- models.py: Perceptron and neural network models for a variety of applications.
+### Team members
+Irving Wu, Baorong Wei
