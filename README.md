@@ -12,6 +12,17 @@ Irving Wu
 ## Assignment 2
 ### Introduction
 This assignment is intended to gauge your understanding of planning and the PDDL modeling system. Your goal will be to implement a domain in PDDL as well as several problems that fall in that domain. You will be given a zip folder, pddl_template.zip, containing a template file for the domain as well as template files for the problems you are expected to implement.
+### Domain Description – The Treasure Hunter
+A treasure hunter just walked into a dungeon with a priceless treasure waiting to be found! Looking around, they gather the following easily apparent facts about the dungeon:
+• The dungeon contains rooms that are connected to corridors allowing the hero to move around.
+• The hero moves through the corridors but is only ever at a single room.
+• Some of the corridors are risky.
+• There are locked corridors with coloured locks.
+• Each room can be empty or have any number of keys in it.
+• The hero can hold a single key.
+• There are two-use keys and one-use keys that are limited in use, and multi-use keys can be used
+infinitely many times.
+• One of the rooms is the goal with (containing treasure!).
 ### Team members
 Irving Wu, Baorong Wei
 
