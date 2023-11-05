@@ -6,6 +6,13 @@ An introduction course to the basic principles and tools of artificial intellige
 There are two parts to this assignment.
 - Propagators. You will implement two constraint propagators—a Forward Checking constraint propagator, and a Generalized Arc Consistency (GAC) constraint propagator—and two heuristics— Minimum-Remaining-Value (MRV) and Degree (DH).
 - Models. You will implement three different CSP models: two grid-only Cagey models, and one full Cagey puzzle model (adding cage constraints to grid).
+### File Supplied by Prof. Christian Muise
+- cspbase.py. Class definitions for the python objects Constraint, Variable, and BT.
+- propagators.py. Starter code for the implementation of your two propagators. You will modify this file with the addition of two new procedures prop FC and prop GAC.
+- heuristics.py. Starter code for the implementation of the variable ordering heuristics, MRV and DH. You will modify this file with the addition of the new procedures ord mrv and ord dh.
+- cagey csp.py. Starter code for the CSP models. You will modify three procedures in this file: binary ne grid, nary ad grid, and cagey csp model.
+- tests.py. Sample test cases. Run the tests with “python3 tests.py”.
+- csp sample run.py. Example CSP problems to demonstrate usage of the API.
 ### Team members
 Irving Wu
 
@@ -37,5 +44,22 @@ Important: please read and reread the above until you understand it completely. 
 Irving Wu, Baorong Wei
 
 ## Assignment 3
+### Introduction
+Pacman spends his life running from ghosts, but things were not always so. Legend has it that many years ago, Pacman’s great grandfather, Grandpac, learned to hunt ghosts for sport. However, he was blinded by his power and could only track ghosts by their banging and clanging. In this project, you will design Pacman agents that use sensors to locate and eat invisible ghosts. You’ll advance from locating single, stationary ghosts to hunting packs of multiple moving ghosts with ruthless efficiency.
+### File Provided by Prof. Christian Muise
+- inference.py: Code for tracking ghosts over time using their sounds. You may refer to this file to assist your implementations in solutions.py.
+- busters.py: The main entry to Ghostbusters (replacing Pacman.py).
+- bustersGhostAgents.py: New ghost agents for Ghostbusters.
+- distanceCalculator.py: Computes maze distances.
+- game.py: Inner workings and helper classes for Pacman.
+- ghostAgents.py: Agents to control ghosts.
+- graphicsDisplay.py: Graphics for Pacman.
+- graphicsUtils.py: Support for Pacman graphics.
+- keyboardAgents.py:Keyboard interfaces to control Pacman.
+- layout.py: Code for reading layout files and storing their contents.
+- util.py: Utility functions.
+### File Modified by Team Members
+- bustersAgents.py: Agents for playing the Ghostbusters variant of Pacman.
+- solutions.py: Code to implement the functionalities of inference.py which track ghosts over time using their sounds.
 ### Team members
 Irving Wu, Baorong Wei
